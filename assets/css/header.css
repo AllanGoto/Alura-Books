@@ -31,6 +31,10 @@
     width: 65vw;
 }
 
+.container__botao {
+    display: none;
+}
+
 .container__botao:checked~.lista__menu {
     display: block;
 }
@@ -43,6 +47,7 @@
 
 .lista-menu__titulo {
     color: var(--laranja);
+    font-weight: 700;
 }
 
 .lista-menu__link {
