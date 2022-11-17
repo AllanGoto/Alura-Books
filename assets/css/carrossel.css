@@ -1,4 +1,4 @@
-.carrossel__titulo {
+.carrossel__titulo, .mais__vendidos-titulo{
     font-weight: 700;
     font-size: 18px;
     text-transform: uppercase;
@@ -21,7 +21,7 @@
     margin: .5em 0;
 }
 
-.card {
+.card, .card__autor {
     background: var(--branco);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
@@ -29,7 +29,7 @@
     padding: 1em;
 }
 
-.card__descricao {
+.card__descricao, .card__descricao-autor {
     display: flex;
     justify-content: space-between;
     margin-bottom: .5em;
@@ -44,19 +44,19 @@
     display: flex;
 }
 
-.descricao__titulo {
+.descricao__titulo, .autor__mes {
     color: var(--laranja);
     font-weight: 700;
 }
 
-.descricao__titulo-livro {
+.descricao__titulo-livro, .nome__autor {
     color: var(--azul);
     font-weight: 700;
     font-size: 18px;
     margin: 0.5em 0;
 }
 
-.descricao__texto {
+.descricao__texto, .descricao__autor {
     font-size: 14px;
 }
 
@@ -70,4 +70,8 @@
     color: var(--branco);
     font-weight: 700;
     text-decoration: none;
+}
+
+.estrelas__autor {
+    display: flex;
 }
